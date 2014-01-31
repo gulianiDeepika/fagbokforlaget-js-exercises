@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<portfolio xmlns="http://meta.portfolio.no/schema/portfolio/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" base="http://dev.portfolio.no/">
+  <response request="read" code="200" status="OK" language="nb_NO">Objektmetadata og innhold er returnert.</response>
+  <object xmlns="http://meta.portfolio.no/schema/portfolio/1.0/" id="f6685a41-dfd0-4ed7-bb19-0b4948b7989d" owner="e7334ce7-9ac2-47e9-8348-3cab4cd15ce4" storage_container="1" created="2012-11-07 11:34:14.107267" last_read="2012-11-15 12:45:21.92903" type="app-input" custom_init="app=teksttilbilde" parent="913d389b-e56d-4d77-ba68-87f964afc255">
+    <title language="nb_NO">Navn på frukter</title>
+    <description language="nb_NO"/>
+    <content language="nb_NO" size="83" encoding="cdata">
+      <![CDATA[
+      Task;Print,GeoGebra,Excel,Copy Originals,All
+      Step;1.Step,2.Step,3.Step,4.Step,All
+      Category;Numbers,Metering,Geometry,Statistics,All
+      Subcategory $ Category ; Numbers # Addition , Subtraction , Multiplication , All * Metering # Commutation , Length , Weight , All * Geometry # Pattern , Mirroring , Angles , Former , All * Statistics # Coordinates , Diagram , Tables , All * All # All
+      
+      Dropdowntags ; Task # task , Step # step , Category # cat , Subcategory # subcat
+      filescontainer ;a14077ad-1a31-46f3-a59a-41f8e4afb1e4
+      tagShortForms ; Print # print , Excel #  xls , GeoGebra # ggb, Copy Originals # cpy , 1.Step # 1 , 2.Step #  2 , 3.Step # 3 , 4.Step # 4 ,Numbers #  num, Meeting #  met,Geometry #  geo,Statistics #  stats, Addition # add ,Substraction #  sub ,Multiplication #  mult, All #  all
+      design ; loadSearchTool.htm # searchEngine.css
+]]>
+    </content>
+    <icon id="object/app-input" src="http://dev.portfolio.no/static-d1f1798/theme/ix/16x16/component_green.png" width="16" height="16" alt="APP-INPUT" title="Type: App-input "/>
+    <license/>
+  </object>
+</portfolio>

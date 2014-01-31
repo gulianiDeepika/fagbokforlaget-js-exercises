@@ -1,0 +1,283 @@
+#app-content {
+   background-color: #544037;
+   height: 100%;
+   width: 100%;
+}
+.search-tool-container {
+    background-color: #544037;
+}   
+article {
+    margin: 0 auto;
+    width: 960px;
+}
+article .top {
+    width :100%;
+    height : 50px;
+    background : url(../images/bgtchTopSmall.jpg) no-repeat 0 0;
+    margin : 0 !important;
+    padding : 0 !important;
+    border : none !important;
+}
+
+article .top .top-content {
+    width : 180px;
+    height : 30px;
+    float : right;
+    border : none !important;
+}
+article .top .top-content .goback {
+    width : 100%;
+    height : 100%;
+    background : url(../images/knapp_laererside_bm_NO.png) no-repeat -4px -2px;
+    cursor : pointer;
+}
+
+article .top .top-content .goback:hover {
+    background : url(../images/knapp_laererside_bm_NO.png) no-repeat -4px -45px;
+}
+
+article .content {
+    width :100%;
+    height : 680px;
+    background : url(../images/bgtchContent.jpg) repeat-y 0 0;
+    margin : 0 !important;
+    padding : 0 !important;
+}
+
+article .content .content-container {
+    width :91%;
+    height : 100%;
+    background-color : #CDC0B0;
+    margin : 0 auto;
+}
+
+article .content .content-container .result-container {
+    width :90%;
+    height : 90%;
+    margin : 0 auto;
+    padding : 2%;
+}
+
+article .bottom {
+    width :100%;
+    height : 40px;
+    background : url(../images/bgtchBottom.jpg) no-repeat 0 0;
+    margin : 0 !important;
+    padding : 0 !important;
+    border : none !important;
+}
+article .filter-files {
+    width : 98%;
+    height : 20%;
+    border : 1px solid #CDC0B0;
+    background-color : #E5DECD;
+    padding : 10px;
+}
+article .filter-files label {
+    margin-right : 10px;
+}
+
+article .filter-results  {
+    height : 73%;
+    width : 100%;
+    border : 2px solid #CDC0B0;
+    padding-top : 20px;
+}
+
+article .filter-results  .files{
+    width : 55%;
+    height : 100%;
+    float : left;
+}
+
+article .filter-results  .files .select-all-files {
+    width : 98%;
+    height : 16%;
+    padding : 4px;
+    background-color : #E5DECD;
+} 
+
+article .filter-results  .files .select-all-files .select-all-text{
+    width : 60%;
+    height : 97%;
+    float : left;
+} 
+
+article .filter-results  .files .select-all-files .buttons{
+    width : 35%;
+    height : 97%;
+    float : right;
+} 
+
+article .filter-results  .files .select-all-files .buttons  .left  {
+   background : url(../images/key_background.png) no-repeat 0 0;
+}
+
+article .filter-results  .files .select-all-files .buttons  .up  {
+   background : url(../images/key_background.png) no-repeat 0 0;
+}
+
+article .filter-results  .files .select-all-files .buttons  .right  {
+   background : url(../images/key_background.png) no-repeat 0 0;
+}
+
+article .filter-results  .files .select-all-files .buttons  .left ,
+article .filter-results  .files .select-all-files .buttons  .up ,
+article .filter-results  .files .select-all-files .buttons  .right 
+{
+    position : relative;
+    width : 40px;
+    height : 42px;
+    cursor : pointer;
+    margin : 2px;
+    padding : 0 !important;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 0 2px #9F6904 inset;
+    -moz-box-shadow: 0 0 2px #9F6904 inset;
+    box-shadow: 0 0 2px #9F6904 inset;
+    background-color: #AA740F;
+    display : inline-block;
+} 
+
+article .filter-results  .files .select-all-files .buttons  .left  .leftArrow{
+   background : url(../images/arrow_left.png) no-repeat 0 0;
+}
+
+article .filter-results  .files .select-all-files .buttons  .up  .upArrow{
+   background : url(../images/arrow_up.png) no-repeat 0 0;
+}
+
+article .filter-results  .files .select-all-files .buttons  .right  .rightArrow{
+   background : url(../images/arrow_right.png) no-repeat 0 0;
+}
+
+article .filter-results  .files .select-all-files .buttons   .leftArrow,
+article .filter-results  .files .select-all-files .buttons  .upArrow,
+article .filter-results  .files .select-all-files .buttons  .rightArrow
+{
+    position : absolute;
+    width : 25px;
+    height : 22px;
+    cursor : pointer;
+    padding : 0 !important;
+    top : 10px;
+    left : 12px;
+} 
+article .filter-results  .files .select-all-files .buttons  .up  .upArrow {
+    left : 8px;
+}
+
+
+article .filter-results  .files .filenames {
+    width : 100%;
+    height : 79%;
+    margin-top : 15px;
+    background-color: #E5DECD;
+    border : 2px solid #544037;
+    /*overflow-y : auto;*/
+} 
+
+article .filter-results  .files  .filenames table {
+    margin-bottom : 0 !important;
+    margin-top : 0 !important;
+}
+
+article .filter-results  .files  .filenames table  input.fileCheckBox,
+article .filter-results  .files  .select-all-files input#selectAllFiles
+{
+    width : 19px;
+    height : 19px;
+}
+
+article .filter-results  .files  .filenames table  td.tdCheckBox {
+    width : 8%;
+}
+
+article .filter-results  .files  .filenames table  td.tdFileName {
+    width : 90%;
+}
+
+article .filter-results  .files  .filenames table  tr {
+    border-bottom : 1px solid #544037;
+    padding : 3px;
+    height : 40px;
+}
+
+article #table_id {
+    width : 100%;
+    max-height : 80%;
+    /*padding : 2px;*/
+    border-right : 1px solid #544037;
+    /*margin-left : 50px;*/
+}
+
+article .filter-results  .thumbnail{
+    width : 40%;
+    height : 100%;
+    float : right;
+    border : 2px solid #544037;
+    -webkit-box-shadow : 5px 5px 20px;
+    -moz-box-shadow : 5px 5px 20px;
+    box-shadow: 5px 5px 20px;
+}
+
+article .downloadFiles {
+  clear : both;
+}
+
+article img.downloadButton {
+    width : 255px;
+    height : 50px;
+    cursor : pointer;
+}
+
+article .filenumber {
+    position: relative;
+    width: 39%;
+    float: right;
+    color: white;
+    top: 12px;
+    text-align: center;
+    /*border: 1px solid black;*/
+    padding: 5px;
+    border-radius: 15px;
+    background-color: #AA740F;
+}
+/* Override data table properties */
+
+#table_id_wrapper {
+    margin-top : 0 ;
+    margin-bottom : 0;
+}
+
+#table_id_length {
+    display : none ;
+}
+
+article input[type="button"] {
+    background-color: #AA740F;
+    border-radius: 3px;
+    box-shadow: 0 0 2px #9F6904 inset;
+    cursor: pointer;
+    height: 25px;
+    padding: 0 5px;
+
+}
+
+.dataTables_filter {
+    float : "";
+    text-align : "";
+}
+
+/* tiny scrollbar css */
+.filenames { width: 415px; margin: 20px 0 10px; }
+.filenames .viewport { width: 415px; height: 350px; overflow: hidden; position: relative; }
+.filenames .overview { width:100% ;  list-style: none; position: absolute; left: 0; top: 0; padding: 0; margin: 0; }
+.filenames .scrollbar{ background: transparent url(../images/bg-scrollbar-track-y.png) no-repeat 0 0; position: relative; background-position: 0 0; float: right; width: 15px; }
+.filenames .track { background: transparent url(../images/bg-scrollbar-trackend-y.png) no-repeat 0 100%; height: 100%; width:13px; position: relative; padding: 0 1px; }
+.filenames .thumb { background: transparent url(../images/bg-scrollbar-thumb-y.png) no-repeat 50% 100%; height: 20px; width: 25px; cursor: pointer; overflow: hidden; position: absolute; top: 0; left: -5px; }
+.filenames .thumb .end { background: transparent url(../images/bg-scrollbar-thumb-y.png) no-repeat 50% 0; overflow: hidden; height: 5px; width: 25px; }
+.filenames .disable { display: none; }
+.noSelect { user-select: none; -o-user-select: none; -moz-user-select: none; -khtml-user-select: none; -webkit-user-select: none; }
+
+

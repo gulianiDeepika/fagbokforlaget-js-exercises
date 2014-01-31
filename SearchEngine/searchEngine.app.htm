@@ -1,0 +1,58 @@
+<!-- Copywrite Deepika Guliani -->
+<!DOCTYPE html>
+    <head>
+        <title>Search Engine</title>
+        <script src="jquery-1.7.1.min.js" type="text/javascript"></script>
+        <script src="jquery.columnFilter.js" type="text/javascript"></script>
+        <script src="jquery.dataTables.js" type="text/javascript"></script>
+        <!--<script src="jquery/jquery-ui-1.8.24.custom.min.js" type="text/javascript"></script>
+        <script src="jquery/html5shiv.js" type="text/javascript"></script>
+        <script src="jquery/printshiv.js" type="text/javascript"></script> -->
+        <script type="text/javascript" src="js/messages.js"></script> 
+        <script type="text/javascript" src="js/searchEngineDesign.js"></script>
+        <script type="text/javascript" src="js/PF_manager.js"></script>
+        <script type="text/javascript" src="js/tinyscrollbar/tinyscrollbar.min.js"></script>
+        <link href="css/searchEngine.css" rel="stylesheet" type="text/css" />
+    </head>
+    
+    <body>
+        <div id="app-content">
+        </div>
+    
+    <script type="text/javascript">
+        //$('').login();
+        var PORTFOLIO = {};
+        PORTFOLIO.APP = {};
+        PORTFOLIO.APP.get = function () {
+            var settings1 = { site_url: "", 
+                              app_base_url: "", 
+                              ui_language : "nb_NO" ,
+                              app_input_id: "12345", 
+                              dom_id: "app-content",
+                              app_id : "searchEngine"
+                              };
+            return [settings1];
+        };
+        
+        $(document).ready(function() {
+            var apps = PORTFOLIO.APP.get("searchEngine");
+            $.each( apps , function ( i, app ) {
+            var app_config = {
+                    site_url       : app.site_url,
+                    app_id         : app.app_id,
+                    dom_id         : app.dom_id,
+                    app_base_url   : app.app_base_url,
+                    base_url       : app.base_url,
+                    app_input_id   : app.app_input_id,
+                    ui_language    : app.ui_language   
+                };
+            $('#' + app.dom_id).searchEngine(app_config);
+            return true;  
+            });
+ });
+    </script>
+
+    <script type="text/javascript" src="js/oo_searchEngine.js"></script>
+    </body>
+ 
+</html>
